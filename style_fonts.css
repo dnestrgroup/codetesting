@@ -1,0 +1,62 @@
+﻿/* Обтекание фотографии текстом */
+.leftimg {
+  float:left; /* Выравнивание по левому краю */
+  margin: 5px 10px 7px 0; /* Отступы вокруг картинки */
+}
+.rightimg  {
+ float: right; /* Выравнивание по правому краю  */ 
+ margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+
+/* -------------------------- Стиль для абзаца ------------------------------ */
+p { 
+text-indent: 1.5em; /* Отступ первой строки */ 
+font-family: Verdana, Arial; /* Стиль шрифта*/
+ 	 font-size: 1em; /* Размер шрифта*/
+ 	 color: #626262; /*цвет шрифта в обычном состоянии*/
+ 	 line-height: 150%; /* межстрочный интервал */
+ 	 text-align: justify; /* выравнивание текста по ширине */
+}
+
+
+/* -------------------- Style for Text-Field on FEEDBACK Form ---------------------- */
+.input_textfield_style {
+ height: 24px; /* высота на свое усмотрение*/
+ width: 98%; /* ширина на свое усмотрение, 2% - это запас на закругление краев*/
+ border: 1px solid #cccccc; /*цвет рамки*/
+   
+ background: #ffffff; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+ outline: none;/* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+ padding: 2px;
+  
+ font-family: Verdana; /* Стиль шрифта*/
+ font-size: 1em; /* Размер шрифта*/
+ color: #626262; /*цвет шрифта в обычном состоянии*/
+   
+ border-radius: 5px; /*закругление углов (общее)*/
+ -webkit-border-radius: 5px; /*закругление углов (Google Chrome)*/
+ -moz-border-radius: 5px; /*закругление углов (FireFox)*/
+ -khtml-border-radius: 5px; /*закругление углов (Safari)*/
+}
+
+/* -------------------- Style for Text-Area on FEEDBACK Form ---------------------- */
+.textarea_message_style {
+ width: 98%; /* ширина на свое усмотрение*/
+ height: 120px;
+ border: 1px solid #cccccc; /*цвет рамки*/
+   
+ background: #ffffff; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+ outline: none;/* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+ padding: 2px;
+
+ resize: none;
+  
+ font-family: Verdana; /* Стиль шрифта*/
+ font-size: 1em; /* Размер шрифта*/
+ color: #626262; /*цвет шрифта в обычном состоянии*/
+   
+ border-radius: 5px; /*закругление углов (общее)*/
+ -webkit-border-radius: 5px; /*закругление углов (Google Chrome)*/
+ -moz-border-radius: 5px; /*закругление углов (FireFox)*/
+ -khtml-border-radius: 5px; /*закругление углов (Safari)*/
+}

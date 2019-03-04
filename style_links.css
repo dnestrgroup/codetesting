@@ -1,0 +1,73 @@
+/* --------------- Внешний ввид ссылок в горизонтальном меню ------------------ */
+.link_change_language a {
+ font: 1.0em Veranda, Arial;
+ color: #e36650; /*цвет ссылки*/
+ text-decoration: underline; /* Добавляем подчеркивание */
+ margin-left: 1.5625%; /* 15px / 960px = 1.5625% отступ между кнопками (ссылками) меню */
+ /* display: block; /*строка меню подсвечивается до конца блока*/
+ /* line-height:150%; /*межстрочный интервал в левом меню*/
+ /* font-weight: bold; /*жирный шрифт*/
+ /* text-decoration: none; /*отключает поддчеркивание ссылки*/
+}
+
+.link_change_language a:hover { /*внешность ссылки при наведении на неё курсора*/
+ color: #e36650; /* Цвет ссылки при наведении на нее курсора мыши */  
+ text-decoration: none; /* Добавляем подчеркивание */
+ /* background: #888888; */ /*подсветка фона*/
+}
+
+@media only screen and (max-width: 479px) {
+ .link_change_language a {
+ 	font: 1em Veranda, Arial;
+ }
+
+}
+
+
+
+/* ======================= BUTTONS Style ==================== */
+
+/* --------------- Style of Button - Find (filled with color) ------------------ */
+.button_send_mess a {
+ clear: both;
+ font: 0.9em Veranda, Arial;
+ color: #fff; /*цвет ссылки*/
+ text-decoration: none; /*отключает поддчеркивание ссылки*/
+ line-height:150%; /*межстрочный интервал в левом меню*/
+ font-weight: bold; /*жирный шрифт*/
+ background: #e36650; /* e36650, db6c35 */
+ 
+ padding-left: 20px; /* Поля вокруг текста */
+ padding-right: 20px; /* Поля вокруг текста */
+ padding-top: 5px; /* Поля вокруг текста */
+ padding-bottom: 5px; /* Поля вокруг текста */
+
+ display: inline-block;
+ 
+ border-radius: 5px;
+ -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+ -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+ -khtml-border-radius: 5px; /* закругл. для браузера Konquerer системы Linux */
+}
+
+.button_send_mess a:hover { /*внешность ссылки при наведении на неё курсора*/
+ clear: both;
+ font: 0.9em Veranda, Arial;
+ color: #fff; /*цвет ссылки*/
+ text-decoration: none; /*отключает поддчеркивание ссылки*/
+ line-height:150%; /*межстрочный интервал в левом меню*/
+ font-weight: bold; /*жирный шрифт*/
+ background: #f47761;
+ 
+ padding-left: 20px; /* Поля вокруг текста */
+ padding-right: 20px; /* Поля вокруг текста */
+ padding-top: 5px; /* Поля вокруг текста */
+ padding-bottom: 5px; /* Поля вокруг текста */
+ 
+ display: inline-block;
+ 
+ border-radius: 5px;
+ -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+ -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+ -khtml-border-radius: 5px; /* закругл. для браузера Konquerer системы Linux */
+}
