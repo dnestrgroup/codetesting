@@ -21,7 +21,9 @@ body, html {
  max-width: 972px;
  height: 90px;
  margin: 0 auto;
- background: #f00;
+
+ background: #0f0;
+
  /*border-top: 2px solid #313131;*/
 }
 
